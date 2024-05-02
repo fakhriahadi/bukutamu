@@ -1,0 +1,197 @@
+//ini untuk versi 2.0
+
+function Loket1Edit() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket1");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+  
+  if (nilaiL4 > "0") {
+  var nilaiTujuan2 = "K" + nilaiL4;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF4 = SCurrent.getRange('F4');
+  var nilaiF4 = selF4.getValue();
+  
+  var nilaiTujuan1 = "K" + nilaiF4;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("1");
+
+}
+
+function Loket2Edit() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket2");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+  
+  if (nilaiL4 > "0") {
+  var nilaiTujuan2 = "K" + nilaiL4;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF4 = SCurrent.getRange('F4');
+  var nilaiF4 = selF4.getValue();
+  
+  var nilaiTujuan1 = "K" + nilaiF4;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("2");
+
+}
+
+function Loket3Edit() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket3");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+  
+  if (nilaiL4 > "0") {
+  var nilaiTujuan2 = "K" + nilaiL4;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF4 = SCurrent.getRange('F4');
+  var nilaiF4 = selF4.getValue();
+  
+  var nilaiTujuan1 = "K" + nilaiF4;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("3");
+
+}
+
+function Loket4Edit() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket4");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+
+  var selL4 = SCurrent.getRange('L4');
+  var nilaiL4 = selL4.getValue();
+  
+  if (nilaiL4 > "0") {
+  var nilaiTujuan2 = "K" + nilaiL4;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF4 = SCurrent.getRange('F4');
+  var nilaiF4 = selF4.getValue();
+  
+  var nilaiTujuan1 = "K" + nilaiF4;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("4");
+
+}
+
+//ini untuk versi 2.1
+
+function Loket1() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket1");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selF5 = SCurrent.getRange('F5');
+  var nilaiF5 = selF5.getValue();
+
+  if (nilaiF5 > "0") {
+  var nilaiTujuan2 = "J" + nilaiF5;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF11 = SCurrent.getRange('F11');
+  var nilaiF11 = selF11.getValue();
+  
+  var nilaiTujuan1 = "J" + nilaiF11;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("1");
+
+}
+function Loket2() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket2");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selF5 = SCurrent.getRange('F5');
+  var nilaiF5 = selF5.getValue();
+
+  if (nilaiF5 > "0") {
+  var nilaiTujuan2 = "J" + nilaiF5;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF11 = SCurrent.getRange('F11');
+  var nilaiF11 = selF11.getValue();
+  
+  var nilaiTujuan1 = "J" + nilaiF11;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("2");
+
+}
+
+function Loket3() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket3");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selF5 = SCurrent.getRange('F5');
+  var nilaiF5 = selF5.getValue();
+
+  if (nilaiF5 > "0") {
+  var nilaiTujuan2 = "J" + nilaiF5;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF11 = SCurrent.getRange('F11');
+  var nilaiF11 = selF11.getValue();
+  
+  var nilaiTujuan1 = "J" + nilaiF11;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("3");
+
+}
+function Loket4() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet()
+  var SCurrent = sheet.getSheetByName("Loket4");
+  var SForm = sheet.getSheetByName("Form Responses 1");
+
+  var selF5 = SCurrent.getRange('F5');
+  var nilaiF5 = selF5.getValue();
+
+  if (nilaiF5 > "0") {
+  var nilaiTujuan2 = "J" + nilaiF5;
+  var selTujuan2 = SForm.getRange(nilaiTujuan2);
+  selTujuan2.setValue("F");};
+
+  var selF11 = SCurrent.getRange('F11');
+  var nilaiF11 = selF11.getValue();
+  
+  var nilaiTujuan1 = "J" + nilaiF11;
+  var selTujuan1 = SForm.getRange(nilaiTujuan1);
+
+  selTujuan1.setValue("4");
+
+}
